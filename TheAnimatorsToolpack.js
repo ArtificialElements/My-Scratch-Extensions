@@ -35,7 +35,7 @@ class AnimatorToolPack {
 		};
 	}
 
-  spriteWidth({NUM}) {
+  	spriteWidth({NUM}) {
 		
 	}
 	
