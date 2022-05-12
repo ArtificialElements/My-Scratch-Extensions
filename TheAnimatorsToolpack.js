@@ -8,13 +8,13 @@ class AnimatorsToolPack {
 				{ // Sprite Width
 					opcode: 'spriteWidth',
 					blockType: Scratch.BlockType.COMMAND,
-					text: 'Sprite width [NUM] %',
+					text: 'Sprite width %',
 				},
 				
 				{ // Sprite Heigth 
 					opcode: 'spriteHeigth',
 					blockType: Scratch.BlockType.COMMAND,
-					text: 'Sprite heigth [NUM] %',
+					text: 'Sprite heigth %',
 				}
 				
 			],
