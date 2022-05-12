@@ -8,13 +8,25 @@ class AnimatorsToolPack {
 				{ // Sprite Width
 					opcode: 'spriteWidth',
 					blockType: Scratch.BlockType.COMMAND,
-					text: 'Sprite width',
+					text: 'Sprite width [NUM] %',
+					arguments: {
+						NUM: {
+							type: Scratch.ArgumentType.NUMBER,
+							defaultValue: 100
+						}
+					}
 				},
 				
 				{ // Sprite Heigth 
 					opcode: 'spriteHeigth',
 					blockType: Scratch.BlockType.COMMAND,
-					text: 'Sprite heigth',
+					text: 'Sprite heigth [NUM] %',
+					arguments: {
+						NUM: {
+							type: Scratch.ArgumentType.NUMBER,
+							defaultValue: 100
+						}
+					}
 				}
 				
 			],
@@ -23,11 +35,11 @@ class AnimatorsToolPack {
 		};
 	}
 
-	spriteWidth() {
+	spriteWidth({NUM}) {
 
 	};
 
-	spriteHeigth() { 
+	spriteHeigth({NUM}) { 
 
 	};
 }
