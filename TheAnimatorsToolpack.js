@@ -17,10 +17,10 @@ class AnimatorsToolPack {
 					}
 				},
 				
-				{ // Sprite Heigth 
-					opcode: 'spriteHeigth',
+				{ // Sprite Height 
+					opcode: 'spriteHeight',
 					blockType: Scratch.BlockType.COMMAND,
-					text: 'Sprite heigth [NUM] %',
+					text: 'Sprite height [NUM] %',
 					arguments: {
 						NUM: {
 							type: Scratch.ArgumentType.NUMBER,
