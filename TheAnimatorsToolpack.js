@@ -31,4 +31,4 @@ class AnimatorsToolPack {
 	};
 }
 
-Scratch.extensions.register(new theanimatorstoolpack());
+Scratch.extensions.register(new AnimatorsToolPack());
