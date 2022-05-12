@@ -20,7 +20,8 @@ class AnimatorsToolPack {
 			],
 			menus: { // I used none
 			}
-	};
+		};
+	}
 
 	spriteWidth() {
 
